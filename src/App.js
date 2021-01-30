@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import '..//src/App.css';
 
 import Footer from './components/Footer';
-import HomePage from './components/HomePage';
+import HomePage from '../src/components/Homepage/index';
 import AboutPage from './components/About/About';
 import ContactPage from './components/Contact/Contact';
 
@@ -22,9 +22,9 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: "ya know",
-        subTitle: "ya know 2",
-        text: "wellcome to my portfolio"
+        title: "Reactafolio",
+        subTitle: "A Professional Portfolio",
+        text: "Made with React and Bootstrap"
       },
 
       about: {
